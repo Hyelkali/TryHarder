@@ -124,15 +124,15 @@ header {
 }
 
 .header-text h1 {
-    font-family: Permanent Marker;
+    font-family: Archivo Black;
     font-style: oblique;
     display: flex;
     flex-wrap: wrap;
 }
 
 .header-text h1:first-letter {
-    font-size: 60px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 68px;
+    font-family: poppins;
 }
 
 .header-text span:first-child {
