@@ -69,7 +69,7 @@
     --button-hover-bg: #555;
     --hover-bg-color: #f0f0f0;
     --animation-duration: 1s;
-    --transition-duration: 0.5s;
+    --transition-duration: 0.8s;
 }
 
 body {
@@ -88,7 +88,7 @@ header {
     padding: 1rem 0;
     width: 100%;
     position: relative;
-    transition: .8s background-color var(--transition-duration);
+    transition: background-color var(--transition-duration);
 }
 
 .header-content {
@@ -124,7 +124,7 @@ header {
 }
 
 .header-text h1 {
-    font-family: pacifico;
+    font-family: Permanent Marker;
     font-style: oblique;
     display: flex;
     flex-wrap: wrap;
@@ -160,7 +160,7 @@ nav {
     background: var(--nav-bg);
     color: #f70e0e;
     padding: 1rem;
-    transition: .4s background-color var(--transition-duration);
+    transition: background-color var(--transition-duration);
     width: 100%;
 }
 
@@ -208,7 +208,7 @@ main {
 section {
     max-width: 800px;
     margin-bottom: 2rem;
-    transition: .6s transform var(--transition-duration), opacity var(--transition-duration);
+    transition: transform var(--transition-duration), opacity var(--transition-duration);
     opacity: 0;
     transform: translateY(20px);
     animation: slideIn var(--animation-duration) ease-in-out forwards;
@@ -224,7 +224,7 @@ section h2 {
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
-    transition: .8s transform var(--transition-duration);
+    transition: transform var(--transition-duration);
     color: #ffffff;
 }
 
@@ -263,7 +263,7 @@ section h2 {
     margin-top: 10px;
     border-radius: 8px;
     filter:drop-shadow(0 0 4px #bb6904);
-    transition: .6s transform var(--transition-duration);
+    transition: transform var(--transition-duration);
 }
 .job h3{
     color: #ff8800;
